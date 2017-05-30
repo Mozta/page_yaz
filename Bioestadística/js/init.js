@@ -23,10 +23,7 @@ $('.pushpin-demo-nav').each(function() {
       bottom: $target.offset().top + $target.outerHeight() - $this.height()
     });
   });
-  // Only necessary for window height sized blocks.
-   html, body, .block {
-     height: 100%;
-   }
+
 
   $(document).ready(function(){
     $('.target').pushpin({
