@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="theme-color" content="#EE6E73">
+  <style media="screen">
+  html, body, .block {
+height: 100%;
+}
+nav ul li a:hover, nav ul li a.active {
+background-color: rgba(0,0,0,.1);
+}
+footer {
+padding-left: 0;
+}
+  </style>
+ </head>
+<title>pushpin</title>
+<body>
+    <div id="red" class="block red">
+        <nav class="pushpin-demo-nav pinned red lighten-1" data-target="red lighten-1" style="top: 0px;">
+            <div class="nav-wrapper red">
+                <div class="container">
+                    <a class="brand-logo">Red</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="orange" class="block orange">
+        <nav class="pushpin-demo-nav orange lighten-1" style="top: 0px;">
+            <div class="nav-wrapper orange">
+                <div class="container pin-top">
+                    <a href="#" class="brand-logo">Orange</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="yellow" class="block yellow accent-2">
+        <nav class="pushpin-demo-nav yellow">Coso 2</nav>
+    </div>
+    <div id="green" class="block green">
+        <nav class="pushpin-demo-nav green lighten-1">Coso 2</nav>
+    </div>
+    <div id="blue" class="block blue">
+        <nav class="pushpin-demo-nav blue lighten-1">Coso 2</nav>
+    </div>
+    <div id="purple" class="block purple">
+        <nav class="pushpin-demo-nav purple lighten-1">Coso 2</nav>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script>
+    if (!window.jQuery) { document.write('<script src="bin/jquery-2.1.1.min.js"><\/script>'); }
+    </script>
+    <script src="js/jquery.timeago.min.js"></script>
+    <script src="js/prism.js"></script>
+    <script src="jade/lunr.min.js"></script>
+    <script src="jade/search.js"></script>
+    <script src="bin/materialize.js"></script>
+    <script src="js/init.js"></script>
+</body>
+</html>
